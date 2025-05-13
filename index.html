@@ -10,105 +10,117 @@ Roll Number: Your Roll Number
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name - CV</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <main class="container">
+    <!-- Header -->
     <section class="header">
       <img src="assets/profile.png" alt="Profile" class="profile-img" />
       <div class="contact-info">
         <h1>Your Name</h1>
         <h2>Manager (Human Resource)</h2>
-        <p><strong>Phone:</strong> +923001234567</p>
-        <p><strong>Email:</strong> yourmail@gmail.com</p>
-        <p><strong>Address:</strong> House # A, Street # 1, City</p>
+        <div class="details">
+          <p>📞 +923001234567</p>
+          <p>📧 yourmail@gmail.com</p>
+          <p>📍 House # A, Street # 1, City</p>
+        </div>
       </div>
     </section>
 
-    <section class="personal-details">
+    <!-- Personal Info -->
+    <section class="personal-info">
       <p><strong>Nationality:</strong> Country</p>
-      <p><strong>Date of birth:</strong> 01/01/2000</p>
+      <p><strong>Date of Birth:</strong> 01/01/2000</p>
       <p><strong>Gender:</strong> Male</p>
       <p><strong>Marital Status:</strong> Single</p>
     </section>
 
+    <!-- Objective -->
     <section>
-      <h3>Objective</h3>
-      <p>Skilled at using educational knowledge... research methodologies.</p>
+      <h3>🎯 Objective</h3>
+      <p>Skilled at using educational knowledge to achieve cutting-edge results. Ready to develop new skills and grow knowledge...</p>
     </section>
 
+    <!-- Experience -->
     <section>
-      <h3>Experience</h3>
-      <article>
-        <h4>Lecturer – University Name, City (09/2024 - 01/2025)</h4>
-        <ul><li>Course</li></ul>
-      </article>
-      <article>
-        <h4>Manager (Human Resource) – Organization Name (01/2020 - 08/2024)</h4>
-        <ul><li>Duties</li></ul>
-      </article>
-      <article>
-        <h4>Lecturer – University Name, City (04/2016 - 12/2019)</h4>
-        <ul>
-          <li>Course A</li><li>Course B</li><li>Course C</li>
-        </ul>
-      </article>
-      <article>
-        <h4>Lab Instructor – University Name, City (08/2014 - 08/2015)</h4>
-        <ul>
-          <li>Duty A</li><li>Duty B</li>
-        </ul>
-      </article>
+      <h3>💼 Experience</h3>
+      <div class="two-column">
+        <div>
+          <h4>Lecturer</h4>
+          <p>University Name, City</p>
+          <p><em>09/2024 – 01/2025</em></p>
+          <ul><li>Course</li></ul>
+        </div>
+        <div>
+          <h4>Manager (Human Resource)</h4>
+          <p>Organization Name</p>
+          <p><em>01/2020 – 08/2024</em></p>
+          <ul><li>Duties</li></ul>
+        </div>
+      </div>
     </section>
 
+    <!-- Education -->
     <section>
-      <h3>Education</h3>
+      <h3>🎓 Education</h3>
       <ul>
-        <li>PhD in AI – University Name, City (02/2024 - Continue) | GPA: 3.95</li>
-        <li>MSc in AI – University Name, City (08/2016 - 02/2018) | GPA: 3.25</li>
-        <li>BSc in AI – University Name, City (10/2012 - 07/2016) | GPA: 3.23</li>
+        <li><strong>PhD in AI</strong>, University Name (2024–Continue) – GPA: 3.95</li>
+        <li><strong>MSc in AI</strong>, University Name (2016–2018) – GPA: 3.25</li>
+        <li><strong>BSc in AI</strong>, University Name (2012–2016) – GPA: 3.23</li>
       </ul>
     </section>
 
+    <!-- Projects -->
     <section>
-      <h3>Research Project</h3>
+      <h3>🧪 Research Project</h3>
       <p>Any Research Topic</p>
-    </section>
 
-    <section>
-      <h3>Other Projects</h3>
-      <ul>
-        <li>Project A</li><li>Project B</li> ... <li>Project J</li>
+      <h3>📁 Other Projects</h3>
+      <ul class="multi-columns">
+        <li>Project A</li><li>Project B</li><li>Project C</li>
+        <li>Project D</li><li>Project E</li><li>Project F</li>
       </ul>
     </section>
 
+    <!-- Skills -->
     <section>
-      <h3>Technical Skills</h3>
-      <p><strong>Programming Languages:</strong> C++, C#, Java</p>
-      <p><strong>Office Tools:</strong> MS Word, PowerPoint</p>
+      <h3>🛠️ Technical Skills</h3>
+      <p><strong>Languages:</strong> C++, C#, Java</p>
+      <p><strong>Tools:</strong> MS Word, PowerPoint</p>
       <p><strong>IDE:</strong> Android Studio</p>
     </section>
 
+    <!-- Languages -->
     <section>
-      <h3>Language Skills</h3>
+      <h3>🗣️ Language Skills</h3>
       <p><strong>Mother Tongue:</strong> Urdu</p>
-      <p><strong>Other Languages:</strong> English (Speaking, Reading, Writing, Listening)</p>
+      <p><strong>Other:</strong> English</p>
+      <div class="lang-bars">
+        <p>Speaking: <span class="bar"></span></p>
+        <p>Reading: <span class="bar"></span></p>
+        <p>Writing: <span class="bar"></span></p>
+        <p>Listening: <span class="bar"></span></p>
+      </div>
     </section>
 
+    <!-- References -->
     <section>
-      <h3>References</h3>
+      <h3>📨 References</h3>
       <p>
-        <strong>Name A</strong> – Assistant Professor<br>
-        Phone: +923451234567<br>
-        Email: abc@gmail.com<br>
-        AB Dept, University Name, City
+        <strong>Name A</strong> – Assistant Professor<br/>
+        Phone: +923451234567<br/>
+        Email: abc@gmail.com<br/>
+        AB Department, University Name
       </p>
       <p>
-        <strong>Name B</strong> – Assistant Professor<br>
-        Phone: +923001234567<br>
-        Email: cde@gmail.com<br>
-        CD Dept, University Name, City
+        <strong>Name B</strong> – Assistant Professor<br/>
+        Phone: +923001234567<br/>
+        Email: cde@gmail.com<br/>
+        CD Department, University Name
       </p>
     </section>
   </main>
 </body>
 </html>
+
