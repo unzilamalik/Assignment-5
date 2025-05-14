@@ -1,117 +1,73 @@
-/* 
-Name: Your Name
-Roll Number: Your Roll Number
-*/
-
+/* Name: [Your Name] | Roll No: [Your Roll Number] */
 body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  padding: 20px;
 }
 
 .container {
-  border-radius: 20px;
-
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 40px;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 850px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
+  gap: 20px;
   border-bottom: 2px solid #ddd;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
+
 .profile-pic {
   width: 120px;
   height: 120px;
-  border-radius: 50%;     /* Makes it circular */
-  object-fit: cover;      /* Crop to fit circle */
-  border: 3px solid #444; /* Optional border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #aaa;
 }
 
+.header-info {
+  flex: 1;
 }
 
-.contact-info h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  margin: 0;
-  color: #007acc;
-}
-
-.contact-info h2 {
+.contact {
+  list-style: none;
+  padding: 0;
   margin: 5px 0;
-  font-weight: normal;
-  font-size: 16px;
-  color: #444;
 }
 
-.details p {
-  margin: 2px 0;
+.contact li {
+  margin-bottom: 5px;
 }
 
 .personal-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  font-size: 14px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  gap: 15px;
+  font-size: 0.9em;
+  margin-top: 8px;
 }
 
-section h3 {
-  font-weight: 700;
-
-  font-size: 20px;
-  margin-top: 30px;
-  color: #007acc;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
+section {
+  margin-top: 25px;
 }
 
-h4 {
-  margin-bottom: 5px;
-  color: #222;
+h1, h2, h3 {
+  margin: 0;
+  font-weight: bold;
 }
 
-ul, .lang-bars {
+ul {
+  margin-top: 5px;
   padding-left: 20px;
 }
 
-.two-column {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.multi-columns {
-  columns: 2;
-  column-gap: 40px;
-}
-
-.lang-bars .bar {
-  display: inline-block;
-  width: 60%;
-  height: 6px;
-  background: #007acc;
-  border-radius: 5px;
-  margin-left: 10px;
-}
-
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+p {
+  margin: 10px 0;
 }
