@@ -72,3 +72,21 @@ ul {
 ul li {
   margin-bottom: 6px;
 }
+.language-skill p {
+  margin: 6px 0 2px;
+  font-size: 14px;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.skill-bar .fill {
+  height: 100%;
+  background-color: #333;
+  border-radius: 4px;
+}
