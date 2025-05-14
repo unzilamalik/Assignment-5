@@ -1,73 +1,81 @@
-/* Name: [Your Name] | Roll No: [Your Roll Number] */
-body {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #222;
-  margin: 0;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unzila Hafeez - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/profile.png" alt="Profile Photo" class="profile-pic">
+            <div class="header-content">
+                <h1>Unzila Hafeez</h1>
+                <p>Bachelor's Student in Communication Studies</p>
+                <ul class="contact">
+                    <li>📞 +92xxxxxxxxxx</li>
+                    <li>✉️ yourmail@gmail.com</li>
+                    <li>🏠 Address: House #, City</li>
+                </ul>
+                <div class="personal-info">
+                    <p><strong>Nationality:</strong> Pakistani</p>
+                    <p><strong>Date of Birth:</strong> 2001</p>
+                    <p><strong>Gender:</strong> Female</p>
+                    <p><strong>Marital Status:</strong> Married</p>
+                </div>
+            </div>
+        </header>
 
-.container {
-  background: #fff;
-  max-width: 850px;
-  margin: auto;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
+        <section>
+            <h2>Objective</h2>
+            <p>A passionate media and communication student seeking to contribute to meaningful causes through NGO work, using strong communication and outreach skills to create social impact.</p>
+        </section>
 
-header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 15px;
-}
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Intern</strong><br>Khidmat-e-Khalq NGO (July 2024 – September 2024)</li>
+            </ul>
+        </section>
 
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #aaa;
-}
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BS in Communication Studies</strong><br>Fatima Jinnah Women University (2021 – Present)</li>
+                <li><strong>ICS</strong><br>Govt. Viqar-un-Nisa College (2018 – 2020)</li>
+                <li><strong>Matriculation</strong><br>FG Girls High School Chaklala (2018)</li>
+            </ul>
+        </section>
 
-.header-info {
-  flex: 1;
-}
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Public Speaking</li>
+                <li>Content Writing</li>
+                <li>Teamwork</li>
+                <li>MS Office</li>
+            </ul>
+        </section>
 
-.contact {
-  list-style: none;
-  padding: 0;
-  margin: 5px 0;
-}
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Community Awareness Campaign</li>
+                <li>Media Literacy Workshop</li>
+            </ul>
+        </section>
 
-.contact li {
-  margin-bottom: 5px;
-}
+        <section>
+            <h2>Language Skills</h2>
+            <p><strong>Mother Tongue:</strong> Urdu</p>
+            <p><strong>Other Languages:</strong> English (Fluent)</p>
+        </section>
 
-.personal-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  font-size: 0.9em;
-  margin-top: 8px;
-}
-
-section {
-  margin-top: 25px;
-}
-
-h1, h2, h3 {
-  margin: 0;
-  font-weight: bold;
-}
-
-ul {
-  margin-top: 5px;
-  padding-left: 20px;
-}
-
-p {
-  margin: 10px 0;
-}
+        <section>
+            <h2>References</h2>
+            <p>Available upon request.</p>
+        </section>
+    </div>
+</body>
+</html>
